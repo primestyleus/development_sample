@@ -8,7 +8,7 @@
       @method('patch')
       <div>
           <label>
-            プロフィール:
+            {!! $user->name !!}のプロフィール:
             <textarea name="description" cols="30" rows="5">{{ $user->description }}</textarea>
           </label>
       </div>
